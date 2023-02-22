@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Attendance Calculator!</h1>
+    <div class="wrapper">
+        <p>Enter your current present hrs :
+            <input type="text" id="present_hrs"><br><span id="present_error"></span>
+        </p>
+
+        <p>Enter your current absent hrs :
+            <input type="text" id="absent_hrs"><br><span id="absent_error"></span>
+        </p>
+
+        <p>What will be my percentage if i present or absent for the next
+            <input type="text" id="no_of_days"> days.<br><span id="days_error"></span>
+        </p>
+
+        <button id="btn">Calculate</button>
+        <p id="output"></p>
+    </div>
+    <h3>for the backbencher by the backbencher!</h3>
+</body>
+</html>
